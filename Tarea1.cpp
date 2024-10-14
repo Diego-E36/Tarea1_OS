@@ -20,12 +20,7 @@ void run() {
     int total_time = 0;
 
     while (distance_covered < total_distance) {
-        int advance = rand() % 11;  
-
-        if (advance == 0) {
-            advance++;
-        }
-        
+        int advance = std::max(1, rand() % 11);  // Evita que el avance sea 0
         distance_covered += advance;
         
         // Simula un tiempo aleatorio de entre 100 y 500 ms
@@ -36,7 +31,7 @@ void run() {
         {
         std::lock_guard<std::mutex> lock(mtx);
         std::cout << "Auto" << id << " avanza " << std::setw(2) << advance 
-            << " metros (total: " << std::setw(3) << distance_covered << " metros)\n";
+        << " metros (total: " << std::setw(3) << distance_covered << " metros)\n";
         }
         // Verificar si ha llegado a la meta
         if (distance_covered >= total_distance) {
@@ -91,7 +86,7 @@ void start_race(int M, int N) {
 
 int main(int argc, char* argv[]) {
     srand(time(nullptr));  // Inicializa la semilla para los números aleatorios
-    
+
     if (argc != 3) {
         std::cerr << "Uso: " << argv[0] << " <distancia> <numero_de_autos>\n";
         return 1;
