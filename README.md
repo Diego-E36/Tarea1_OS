@@ -22,7 +22,7 @@ Antes de ejecutar el programa, asegúrate de contar con los siguientes archivos:
 ## Pasos para descargar y ejecutar
 
 1. **Descargar los archivos**  
-   - Descarga los archivos usando `wget` o directamente desde GitHub.
+   - Descarga los archivos usando `wget` en la terminal con el siguiente link: https://github.com/Diego-E36/Tarea1_OS/archive/refs/heads/main.zip o directamente desde GitHub.
 
 2. **Abrir la terminal**  
    - Dirígete a la carpeta donde descargaste los archivos.
