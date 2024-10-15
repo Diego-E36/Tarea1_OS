@@ -6,7 +6,7 @@ Este proyecto simula una carrera de autos utilizando múltiples hilos en C++. Ca
 
 - **Compilador C++**: Se recomienda un compilador compatible con C++11 o superior (por ejemplo, g++).
 - **Make**: Se necesita `make` para automatizar la compilación.
-- **Sistema operativo**: El código ha sido probado en sistemas basados en Linux, pero debería funcionar en cualquier sistema con soporte para hilos en C++ (Windows, macOS, etc.).
+- **Sistema operativo**: El código ha sido probado en sistemas basados en Linux.
 
 ## Compilación
 
