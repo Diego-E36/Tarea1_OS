@@ -10,7 +10,7 @@ Este proyecto simula una carrera de autos utilizando múltiples hilos en C++. Ca
 
 ## Compilación
 
-Para compilar el código usando `make`, simplemente ejecuta el siguiente comando en la carpeta donde se encuentra el archivo `Makefile`:
+Para compilar el código usando `make`, simplemente sigue las siguientes instrucciones:
 
 # Instrucciones para ejecutar el programa `carrera_autos`
 
